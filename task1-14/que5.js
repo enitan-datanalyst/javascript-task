@@ -1,21 +1,11 @@
-function javascriptIsFun(string, times) {
-    let myString = " "
+function javascriptIsFun(string, n) {
+    let myString = " javascript is fun"
 
-    while (times > 0) {
+    while (n > 0) {
         myString += string;
         times--;
     }
     // console.log(myString)
     return myString;
 }
-javascriptIsFun("JavaScript is fun", 2);
-
-// function repeatStringNumTimes(string, times) {
-//     var repeatedString = "";
-//     while (times > 0) {
-//         repeatedString += string;
-//         times--;
-//     }
-//     return repeatedString;
-// }
-// repeatStringNumTimes("abc", 3);
+console.log(javascriptIsFun("JavaScript is fun", 0));
