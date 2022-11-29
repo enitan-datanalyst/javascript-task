@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript-task</title>
+</head>
+
+<body>
+
+    <h3>Task 12</h3>
+
+    <button type="button" id="btn" onclick="document.getElementById('greetings').innerHTML='Hello World!'">Click to say HI</button>
+
+    <p id="greetings"></p>
+
+
+
+
+
+
+
+
+    <button onclick="myColor()">Change background color</button>
+
+    <div id="myDIV">
+        <h1>Task 13</h1>
+        <p id="colorChanged"></p>
+    </div>
+
+
+    <script>
+        function myColor() {
+            document.getElementById("myDIV").style.backgroundColor = "green";
+            document.getElementById("colorChanged").innerHTML = 'background color changed';
+        }
+    </script>
+
+
+
+
+
+
+    <h2>Task 14</h2>
+
+    <span id="text">Enter Number:</span> <input id="num_input">
+    <button onclick="odd_even()">SUBMIT</button>
+
+    <script>
+        function odd_even() {
+            let num;
+            num = Number(document.getElementById("num_input").value);
+            if (num % 2 == 0) {
+                alert("input number ia an Even Number");
+            } else {
+                alert("input number is an Odd Number");
+            }
+        }
+    </script>
+
+
+
+    <!-- <h2>Task 14</h2>
+
+ Enter Number: <input type="text" id="number">
+ <button onclick="even_odd()">SUBMIT</button>
+ <div id="result"></div>
+
+ <script>
+     function even_odd() {
+         let num = document.getElementById('number').value;
+
+         if (num % 2 == 0) {
+             document.getElementById('result').innerHTML = "Input number is  an Even number";
+         } else {
+             document.getElementById('result').innerHTML = "Input number is an Odd number";
+         }
+     }
+ </script> -->
+
+
+
+
+
+
+
+
+
+
+
+    <script src="que1.js"></script>
+    <script src="que3.js"></script>
+    <script src="que4.js"></script>
+    <script src="que2.js"></script>
+    <script src="que5.js"></script>
+    <script src="que6.js"></script>
+    <script src="que7.js"></script>
+    <script src="que8.js"></script>
+    <script src="que9.js"></script>
+    <script src="que10.js"></script>
+    <script src="que11.js"></script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
